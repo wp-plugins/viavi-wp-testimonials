@@ -1,0 +1,1106 @@
+.WordPress_Testimonials-list:before,
+.WordPress_Testimonials-list:after,
+.WordPress_Testimonials-grid:before,
+.WordPress_Testimonials-grid:after{
+  display: table;
+  clear: both;
+}
+
+.WordPress_Testimonials p{
+  font-size: 14px;
+  line-height: 1.325;
+}
+.WordPress_Testimonials-meta{
+  display: inline-block;
+  clear:both;
+}
+
+.tm_author em{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.position, .website a{ color: #999; font-size: 14px; font-weight: normal;}
+.thumb-large img{
+	height:120px!important;
+	width:120px!important;
+	background: none;
+	border: none;
+	border-radius: 50%!important;
+	-webkit-border-radius: 50%!important;
+	-moz-border-radius: 50%!important;
+	box-shadow: none!important;
+	-webkit-box-shadow: none!important;
+	-moz-box-shadow: none!important;
+}
+.thumb-medium img{
+	height:80px!important;
+	width:80px!important;
+	background: none;
+	border: none;
+	border-radius: 50%!important;
+	-webkit-border-radius: 50%!important;
+	-moz-border-radius: 50%!important;
+	box-shadow: none!important;
+	-webkit-box-shadow: none!important;
+	-moz-box-shadow: none!important;
+}
+
+.thumb-small img{
+	height:40px!important;
+	width:40px!important;
+	background: none;
+	border: none;
+	border-radius: 50%!important;
+	-webkit-border-radius: 50%!important;
+	-moz-border-radius: 50%!important;
+	box-shadow: none!important;
+	-webkit-box-shadow: none!important;
+	-moz-box-shadow: none!important;
+}
+
+.thumb-large img{ width: 100px; height: auto;}
+.thumb-medium img{ width: 75px; height: auto;}
+.thumb-small img{ width: 55px; height: auto;}
+
+.flr{display: inline-block; text-align: right; width: 100%;}
+.style-one .flr{ text-align:center!important;}
+.flr img{ box-shadow:none!important; border:solid 1px #eee!important; padding:1%;}
+.next{ }
+.previous{ text-align:left;}
+.sld-pagination img,
+.sld-pagination-two img,
+.sld-pagination-three img,
+.sld-pagination-seven img,
+.sld-pagination-six img{
+  background: none;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  position: relative;
+  /*top: -22px;*/
+  z-index: 99;
+}
+.sld-pagination-four{
+  margin-top: 20px;
+  width: 50px;
+  text-align:right;
+  float: right;
+}  
+.sld-pagination-five{
+  clear: both;
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+}           
+
+.sld-pagination-four img,.sld-pagination-five img{
+  background: none;
+  border: none;
+  border-radius: 0;
+  box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none;
+}
+
+/**
+ * Veiw: Table
+ *************************************************/ 
+
+.WordPress_Testimonials-table, .WordPress_Testimonials-grid{
+  display: table;
+  clear: both;
+  position: relative;
+  max-width: 100%;
+}
+
+.border-top{border-top: 1px dashed #AAAAAA;}
+
+.WordPress_Testimonials-table .col-3, .WordPress_Testimonials-table .col-2, .WordPress_Testimonials-table .col-4{
+  display: table-cell!important;
+  padding: 20px;
+  text-align: center;
+  vertical-align: top;
+}
+.WordPress_Testimonials-table .col-4{ width: 23.076923076923077%; }
+.WordPress_Testimonials-table .col-3{ width: 33.33%; }
+.WordPress_Testimonials-table .col-2{ width: 49.5%; }
+.WordPress_Testimonials-table .col-2:nth-child(2n){
+  border-left: 1px dashed #AAAAAA;
+}
+.WordPress_Testimonials-table .col-3:nth-child(2n){
+  border-left: 1px dashed #AAAAAA;
+  border-right: 1px dashed #AAAAAA;
+}
+
+/**
+ * Veiw: List
+ * Style: One 
+ *************************************************/
+ .style-two .WordPress_Testimonials, 
+ .style-4 .WordPress_Testimonials, 
+ .style-six .WordPress_Testimonials, .style-seven .WordPress_Testimonials{
+   display: inline-block;
+   background: #FFF;
+   border:  1px solid #eee;
+   box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+   -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+   -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+   margin: 0 0 25px;
+   margin: 0 0 2.5rem;
+   padding: 20px;
+   padding: 2rem;
+   position: relative;
+   max-width: 100%;
+ }
+ .style-one .WordPress_Testimonials{
+   display: inline-block;
+   margin: 0 0 25px;
+   margin: 0 0 2.5rem;
+   padding: 20px;
+   padding: 2rem;
+   position: relative;
+   max-width: 100%;
+   text-align:center; 
+	 }
+ 
+ .style-one .WordPress_Testimonials-meta{
+   width: 100%;
+ }
+ 
+ .style-one .author-pic img{ border:solid 1px #ccc; padding:1%;}
+ .style-one .position, .style-one .website a{ display:block; text-decoration: none; border: none;}
+ 
+/**
+ * Veiw: List
+ * Style: Two, Three 
+ *************************************************/
+ .style-two .WordPress_Testimonials-content{
+   display: table-cell;
+   border-right: 1px solid #DDD;
+   padding-right: 15px;
+   vertical-align: top;
+ }
+ .style-two .WordPress_Testimonials{
+   /* Shadow */
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;   	 
+	 }
+ .style-three .WordPress_Testimonials-content{
+   display: table-cell;
+   border-left: 1px solid #DDD;
+   padding-left: 15px;
+   vertical-align: top;
+ }
+ .style-two .WordPress_Testimonials-meta, .style-three .WordPress_Testimonials-meta{
+   display: table-cell;
+   text-align: center;
+   width: 20%;
+   padding: 0 0 0 15px;
+ }
+ .style-three .WordPress_Testimonials-meta{padding: 0 15px 0 0;}
+ .style-two .author-pic, .style-three .author-pic, 
+ .WordPress_Testimonials-table .author-pic, .grid.style-4 .author-pic{display:block; margin: 0 0 25px;}
+ .style-two .position, .style-three .position,
+ .style-two .website a, .style-three .website a{ display:block; text-decoration: none; border: none;}
+ 
+  .style-two .author-pic img{ border:solid 1px #ccc; padding:2%;}
+
+
+/**
+ * Veiw: List
+ * Style: Three 
+ *************************************************/
+ .style-three .WordPress_Testimonials{
+   display: block;
+   clear: both;
+   margin: 0 0 35px;
+   margin: 0 0 3.5rem;
+ }
+ .style-three .WordPress_Testimonials-content{
+   background: #fff;
+   border: 1px solid #f3f3f3;
+   border-radius: 5px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+   -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+   display: block;
+   padding: 20px;
+   position: relative;
+ }
+ .style-three .WordPress_Testimonials-content:before{
+  border-color: #eee transparent transparent;
+  border-style: solid;
+  border-width: 0.8em;
+  bottom: -23px;
+  content: " ";
+  display: block;
+  left: 39px;
+  position: absolute;
+ }
+ .style-three .WordPress_Testimonials-content:after{
+  border-color: #eee transparent transparent;
+  border-style: solid;
+  border-width: 0.8em;
+  bottom: -23px;
+  content: " ";
+  display: block;
+  left: 39px;
+  position: absolute;
+ }
+ .style-three .WordPress_Testimonials-meta {
+    display: inline-block;
+    margin: 20px 15px 0;
+    text-align: left;
+    width: 90%;
+  }
+ 
+  .style-three .author-pic {
+      display: block;
+      float: left;
+      margin: 0 20px 10px 0;
+  }
+ .style-three .position,
+ .style-three .website a{ display:block; text-decoration: none; border: none; display:inline-block;}
+ .style-three .position{ background:url(../images/client.png) no-repeat left center; padding-left:20px; margin-right:1%;}
+ .style-three .website a{background:url(../images/link.png) no-repeat left center; padding-left:20px;}
+ 
+ .style-three .author-pic img{ border:solid 1px #ccc; padding:5%;}
+
+/**
+ * Grid View
+ *****************************************/
+.grid .col-4,
+.grid .col-2,
+.grid .col-6,
+.grid .col-3,
+.grid .col-5{
+	float: left;
+	margin-left: 2.564102564102564%;
+} 
+
+.grid .col-2 {
+	width: 48.717948717948715%;
+}
+
+.grid .col-3 {
+	width: 31.623931623931625%;
+}
+
+.grid .col-4 {
+	width: 23.076923076923077%;
+}
+
+.grid .col-5 {
+	width: 17.856789%;
+}
+
+.grid .col-6 {
+	width: 14.52991452991453%;
+}
+
+.grid .first {
+	clear: both;
+	margin-left: 0;
+}
+
+.grid.style-two .WordPress_Testimonials{
+  overflow: visible!important;
+  margin-bottom: 65px;
+  margin-bottom: 6.5rem
+}
+.grid.style-three .WordPress_Testimonials-meta{width: 100%;}
+.grid.style-three .WordPress_Testimonials, .slider-four.style-three .WordPress_Testimonials, .slider-five.style-five .WordPress_Testimonials{ clear: none; }
+.style-4 .author-pic, .style-4 .WordPress_Testimonials-meta,
+.style-4 .WordPress_Testimonials-meta .position, .style-4 .WordPress_Testimonials-meta .website a{
+  text-align: center; display: block; clear: both;
+  border: none;
+}
+
+.grid.style-two .author-pic{
+  background: #F8F8F8;
+  border: 1px solid #999999;
+  border-radius: 50%!important;
+  display: block;
+  left: 50%;
+  line-height: 0;
+  margin: 0 0 0 -39px;
+  padding: 2px;
+  position: absolute;
+  top: -42px;
+  /*width: 79px;
+  height: 79px;*/
+}
+
+.grid.style-two .WordPress_Testimonials-content {
+  border-right: 0 none;
+  display: block;
+  margin-top: 45px;
+  padding-right: 0;
+  text-align: center;
+  vertical-align: top;
+}
+
+.WordPress_Testimonials-list .slides li{margin-left: 0!important; overflow: hidden;}
+
+/***
+ * Pagination
+ ************************/
+ .tm-pagination{
+  display: block;
+  text-align: center;
+ }
+ .tm-pagination a, .tm-pagination span{
+  background: #FFF;
+  border:solid 1px #EEE;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  color: #656565;
+  display: inline-block;
+  margin-right: 5px;
+  padding: 2px 10px;
+  text-decoration: none !important;
+ }
+ 
+ .tm-pagination a:hover{background: #EEE;}
+ .tm-pagination span.current{background: #EEE;} 
+ 
+ /*****************************************************
+  *   Responsive Design
+  ****************************************************/
+  @media only screen and (max-width:768px){
+	.style-three .WordPress_Testimonials-meta{
+		width:90%!important;
+		}
+	.style-three .WordPress_Testimonials{
+		width:100%!important;
+		}	  
+	  }
+  @media only screen and (max-width: 767px){
+    .style-three .WordPress_Testimonials-meta{width: 100%;}
+    .WordPress_Testimonials-list.style-five .WordPress_Testimonials-content{width: auto;}     
+    .WordPress_Testimonials-list.style-five .WordPress_Testimonials-meta { width: 93%;}
+    .style-five .WordPress_Testimonials-content:before, .style-five .WordPress_Testimonials-content:after{display: none;}   
+    .WordPress_Testimonials-list.style-six .author-pic {
+        display: inline-block;
+        float: none;
+        margin: 0;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .style-six .has_thumbnail .WordPress_Testimonials-content p { margin-left: 0; padding-top: 20px; }
+    .style-three li .WordPress_Testimonials-meta{width: 70%;}
+    .grid .col-4,
+    .grid .col-2,
+    .grid .col-6,
+    .grid .col-3,
+    .grid .col-5{ float: none; margin: 0 0 30px; width: 100%;}
+	.style-three .WordPress_Testimonials-meta{
+		width:90%!important;
+		}
+	.style-three .WordPress_Testimonials{
+		width:100%!important;
+		}
+  }
+  @media only screen and (max-width: 600px){
+    .WordPress_Testimonials-list.style-three .WordPress_Testimonials-content, 
+    .WordPress_Testimonials-list.style-two .WordPress_Testimonials-content,
+    .WordPress_Testimonials-list.style-two .WordPress_Testimonials-meta, 
+    .WordPress_Testimonials-list.style-three .WordPress_Testimonials-meta {
+        border: none;
+        display: table;
+        padding: 0;
+        vertical-align: top;
+        text-align: left;
+        width: 100%;
+    }
+     .WordPress_Testimonials-content{ padding:2%!important; width:96%!important;}
+    .WordPress_Testimonials-list.style-two .author-pic, 
+    .WordPress_Testimonials-list.style-three .author-pic {
+        display: block;
+        float: left;
+        margin: 0 20px 0 0;
+    }
+    .WordPress_Testimonials-list.style-two .tm_author em, .WordPress_Testimonials-list.style-two .tm_author,
+    .WordPress_Testimonials-list.style-three .tm_author em, .WordPress_Testimonials-list.style-three .tm_author,
+    .WordPress_Testimonials-list.style-two .position, .WordPress_Testimonials-list.style-three .position, 
+    .WordPress_Testimonials-list.style-two .website a, .WordPress_Testimonials-list.style-three .website a { display: table;}
+  }   
+  @media only screen and (max-width: 680px){
+    .WordPress_Testimonials-table .col-2, .WordPress_Testimonials-table .col-3,
+    .WordPress_Testimonials-table .col-2:nth-child(2n), 
+    .WordPress_Testimonials-table .col-3:nth-child(2n) {
+      border-bottom: 1px dashed #AAAAAA;
+      border-left: none;
+      border-right: none;
+      display: table;
+      width: auto; 
+    }
+    .WordPress_Testimonials-table .col-2:last-child, .WordPress_Testimonials-table .col-3:last-child{
+      border-bottom: none;
+     }
+  }
+  
+/* ---------------------Turquoise--------------------- */
+
+/* Style One */
+#Turquoise .style-one .WordPress_Testimonials-content{
+	border:solid 2px #19bd9b;
+	padding:2%;
+	margin-bottom:-3%;
+	position:relative;
+	/* Shadow */
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;		
+	}
+#Turquoise .style-one .author-pic img{
+	border:solid 2px #19bd9b!important;
+	background:#fff;
+	z-index:2;
+	position:relative;
+	}	
+#Turquoise .style-one .position,#Turquoise .style-one .website a{ color:#19bd9b!important;}
+
+#Turquoise .sld-pagination img{
+	border:solid 2px #19bd9b!important;
+	}	
+
+/* Style Two */
+#Turquoise .style-two .WordPress_Testimonials{
+	background:#19bd9b!important;
+	border:none;	
+	}
+#Turquoise .style-two .author-pic img{
+	background:#fff!important;
+	border:none!important;
+	}
+#Turquoise .style-two .WordPress_Testimonials-content{
+	background:#fff;
+	padding:2%;
+	/* Shaodw */	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;	
+	}
+#Turquoise .style-two .author-name,#Turquoise .style-two .position,#Turquoise .style-two .website a{ color:#fff!important;}
+
+#Turquoise .sld-pagination-two img{
+	border:solid 2px #19bd9b!important;
+	}	
+
+
+
+/* Style Three */
+#Turquoise .style-three .WordPress_Testimonials-content{
+	background:#19bd9b!important;
+	border:none;
+	color:#fff;	
+	}
+#Turquoise .style-three .WordPress_Testimonials-content:before{
+  border-color: #19bd9b transparent transparent;
+  bottom: -22px;
+  content: " ";
+  display: block;
+  left: 39px;
+  position: absolute;
+ }
+#Turquoise .style-three .WordPress_Testimonials-content:after{
+  border-color: #19bd9b transparent transparent;
+  bottom: -22px;
+  content: " ";
+  display: block;
+  left: 39px;
+  position: absolute;
+ }
+#Turquoise .style-three .author-pic img{
+	border:solid 2px #19bd9b!important;	
+	} 
+#Turquoise .style-three .position,#Turquoise .style-three .website a{ color:#19bd9b!important;}
+
+#Turquoise .sld-pagination-three img{
+	border:solid 2px #19bd9b!important;
+	}	
+
+/* --------------------- Emerland --------------------- */
+
+/* Style One */
+#Emerland .style-one .WordPress_Testimonials-content{
+	border:solid 2px #2dcc70;
+	padding:2%;
+	margin-bottom:-3%;
+	position:relative;
+	/* Shadow */
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;	
+	}
+#Emerland .style-one .author-pic img{
+	border:solid 2px #2dcc70!important;
+	background:#fff;
+	z-index:2;
+	position:relative;
+	}
+#Emerland .style-one .position,#Emerland .style-one .website a{ color:#2dcc70!important;}	
+
+#Emerland .sld-pagination img{
+	border:solid 2px #2dcc70!important;
+	}	
+
+
+/* Style Two */
+#Emerland .style-two .WordPress_Testimonials{
+	background:#2dcc70!important;
+	border:none;	
+	}
+#Emerland .style-two .author-pic img{
+	background:#fff!important;
+	border:none!important;
+	}
+#Emerland .style-two .WordPress_Testimonials-content{
+	background:#fff;
+	padding:2%;
+	/* Shaodw */	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;	
+	}
+#Emerland .style-two .author-name,#Emerland .style-two .position,#Emerland .style-two .website a{ color:#fff!important;}
+
+#Emerland .sld-pagination-two img{
+	border:solid 2px #2dcc70!important;
+	}	
+
+
+/* Style Three */
+#Emerland .style-three .WordPress_Testimonials-content{
+	background:#2dcc70!important;
+	border:none;
+	color:#fff;	
+	}
+#Emerland .style-three .WordPress_Testimonials-content:before{
+  border-color: #2dcc70 transparent transparent;
+  bottom: -22px;
+  content: " ";
+  display: block;
+  left: 39px;
+  position: absolute;
+ }
+#Emerland .style-three .WordPress_Testimonials-content:after{
+  border-color: #2dcc70 transparent transparent;
+  bottom: -22px;
+  content: " ";
+  display: block;
+  left: 39px;
+  position: absolute;
+ }
+#Emerland .style-three .author-pic img{
+	border:solid 2px #2dcc70!important;	
+	} 
+#Emerland .style-three .position,#Emerland .style-three .website a{ color:#2dcc70!important;}
+
+#Emerland .sld-pagination-three img{
+	border:solid 2px #2dcc70!important;
+	}	
+
+
+/* --------------------- Peter River --------------------- */
+
+/* Style One */
+#Peter_River .style-one .WordPress_Testimonials-content{
+	border:solid 2px #3598dc;
+	padding:2%;
+	margin-bottom:-3%;
+	position:relative;
+	/* Shadow */
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;	
+	}
+#Peter_River .style-one .author-pic img{
+	border:solid 2px #3598dc!important;
+	background:#fff;
+	z-index:2;
+	position:relative;
+	}
+#Peter_River .style-one .position,#Peter_River .style-one .website a{ color:#3598dc!important;}	
+
+#Peter_River .sld-pagination img{
+	border:solid 2px #3598dc!important;
+	}	
+
+
+/* Style Two */
+#Peter_River .style-two .WordPress_Testimonials{
+	background:#3598dc!important;
+	border:none;	
+	}
+#Peter_River .style-two .author-pic img{
+	background:#fff!important;
+	border:none!important;
+	}
+#Peter_River .style-two .WordPress_Testimonials-content{
+	background:#fff;
+	padding:2%;
+	/* Shaodw */	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;	
+	}
+#Peter_River .style-two .author-name,#Peter_River .style-two .position,#Peter_River .style-two .website a{ color:#fff!important;}
+
+#Peter_River .sld-pagination-two img{
+	border:solid 2px #3598dc!important;
+	}
+
+
+/* Style Three */
+
+#Peter_River .style-three .WordPress_Testimonials-content{
+	background:#3598dc!important;
+	border:none;
+	color:#fff;	
+	}
+#Peter_River .style-three .WordPress_Testimonials-content:before{
+  border-color: #3598dc transparent transparent;
+  bottom: -22px;
+  content: " ";
+  display: block;
+  left: 39px;
+  position: absolute;
+ }
+#Peter_River .style-three .WordPress_Testimonials-content:after{
+  border-color: #3598dc transparent transparent;
+  bottom: -22px;
+  content: " ";
+  display: block;
+  left: 39px;
+  position: absolute;
+ }
+#Peter_River .style-three .author-pic img{
+	border:solid 2px #3598dc!important;	
+	} 
+#Peter_River .style-three .position,#Peter_River .style-three .website a{ color:#3598dc!important;}
+
+#Peter_River .sld-pagination-three img{
+	border:solid 2px #3598dc!important;
+	}
+
+
+/* --------------------- Amethyst --------------------- */ 
+
+/* Style One */
+#Amethyst .style-one .WordPress_Testimonials-content{
+	border:solid 2px #8d44af;
+	padding:2%;
+	margin-bottom:-3%;
+	position:relative;
+	/* Shadow */
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;	
+	}
+#Amethyst .style-one .author-pic img{
+	border:solid 2px #8d44af!important;
+	background:#fff;
+	z-index:2;
+	position:relative;
+	}
+#Amethyst .style-one .position,#Amethyst .style-one .website a{ color:#8d44af!important;}	
+
+#Amethyst .sld-pagination img{
+	border:solid 2px #8d44af!important;
+	}	
+
+
+/* Style Two */
+
+#Amethyst .style-two .WordPress_Testimonials{
+	background:#8d44af!important;
+	border:none;	
+	}
+#Amethyst .style-two .author-pic img{
+	background:#fff!important;
+	border:none!important;
+	}
+#Amethyst .style-two .WordPress_Testimonials-content{
+	background:#fff;
+	padding:2%;
+	/* Shaodw */	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;	
+	}
+#Amethyst .style-two .author-name,#Amethyst .style-two .position,#Amethyst .style-two .website a{ color:#fff!important;}
+
+#Amethyst .sld-pagination-two img{
+	border:solid 2px #8d44af!important;	
+	}
+
+
+/* Style Three */
+
+#Amethyst .style-three .WordPress_Testimonials-content{
+	background:#8d44af!important;
+	border:none;
+	color:#fff;	
+	}
+#Amethyst .style-three .WordPress_Testimonials-content:before{
+  border-color: #8d44af transparent transparent;
+  bottom: -22px;
+  content: " ";
+  display: block;
+  left: 39px;
+  position: absolute;
+ }
+#Amethyst .style-three .WordPress_Testimonials-content:after{
+  border-color: #8d44af transparent transparent;
+  bottom: -22px;
+  content: " ";
+  display: block;
+  left: 39px;
+  position: absolute;
+ }
+#Amethyst .style-three .author-pic img{
+	border:solid 2px #8d44af!important;	
+	} 
+#Amethyst .style-three .position,#Amethyst .style-three .website a{ color:#8d44af!important;}
+
+#Amethyst .sld-pagination-three img{
+	border:solid 2px #8d44af!important;	
+	}
+	
+/* --------------------- Midnight Blue --------------------- */
+
+/* Style One */
+
+#Midnight_Blue .style-one .WordPress_Testimonials-content{
+	border:solid 2px #5d6e7e;
+	padding:2%;
+	margin-bottom:-3%;
+	position:relative;
+	/* Shadow */
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;	
+	}
+#Midnight_Blue .style-one .author-pic img{
+	border:solid 2px #5d6e7e!important;
+	background:#fff;
+	z-index:2;
+	position:relative;
+	}
+#Midnight_Blue .style-one .position,#Midnight_Blue .style-one .website a{ color:#5d6e7e!important;}
+
+#Midnight_Blue .sld-pagination img{
+	border:solid 2px #5d6e7e!important;
+	}	
+
+
+/* Style Two */
+
+#Midnight_Blue .style-two .WordPress_Testimonials{
+	background:#5d6e7e!important;
+	border:none;	
+	}
+#Midnight_Blue .style-two .author-pic img{
+	background:#fff!important;
+	border:none!important;
+	}
+#Midnight_Blue .style-two .WordPress_Testimonials-content{
+	background:#fff;
+	padding:2%;
+	/* Shaodw */	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;	
+	}
+#Midnight_Blue .style-two .author-name,#Midnight_Blue .style-two .position,#Midnight_Blue .style-two .website a{ color:#fff!important;}
+
+#Midnight_Blue .sld-pagination-two img{
+	border:solid 2px #5d6e7e!important;	
+	}
+
+
+/* Style Three */
+
+#Midnight_Blue .style-three .WordPress_Testimonials-content{
+	background:#5d6e7e!important;
+	border:none;
+	color:#fff;	
+	}
+#Midnight_Blue .style-three .WordPress_Testimonials-content:before{
+  border-color: #5d6e7e transparent transparent;
+  bottom: -22px;
+  content: " ";
+  display: block;
+  left: 39px;
+  position: absolute;
+ }
+#Midnight_Blue .style-three .WordPress_Testimonials-content:after{
+  border-color: #5d6e7e transparent transparent;
+  bottom: -22px;
+  content: " ";
+  display: block;
+  left: 39px;
+  position: absolute;
+ }
+#Midnight_Blue .style-three .author-pic img{
+	border:solid 2px #5d6e7e!important;	
+	} 
+#Midnight_Blue .style-three .position,#Sun_Flower .style-three .website a{ color:#5d6e7e!important;}
+
+#Midnight_Blue .sld-pagination-three img{
+	border:solid 2px #5d6e7e!important;	
+	}
+
+
+/* --------------------- Sun Flower --------------------- */
+
+/* Style One */
+#Sun_Flower .style-one .WordPress_Testimonials-content{
+	border:solid 2px #f1c40f;
+	padding:2%;
+	margin-bottom:-3%;
+	position:relative;
+	/* Shadow */
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;	
+	}
+#Sun_Flower .style-one .author-pic img{
+	border:solid 2px #f1c40f!important;
+	background:#fff;
+	z-index:2;
+	position:relative;
+	}
+#Sun_Flower .style-one .position,#Sun_Flower .style-one .website a{ color:#f1c40f!important;}	
+
+#Sun_Flower .sld-pagination img{
+	border:solid 2px #f1c40f!important;
+	}	
+
+
+/* Style Two */
+
+#Sun_Flower .style-two .WordPress_Testimonials{
+	background:#f1c40f!important;
+	border:none;	
+	}
+#Sun_Flower .style-two .author-pic img{
+	background:#fff!important;
+	border:none!important;
+	}
+#Sun_Flower .style-two .WordPress_Testimonials-content{
+	background:#fff;
+	padding:2%;
+	/* Shaodw */	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;	
+	}
+#Sun_Flower .style-two .author-name,#Sun_Flower .style-two .position,#Sun_Flower .style-two .website a{ color:#fff!important;}
+
+#Sun_Flower .sld-pagination-two img{
+	border:solid 2px #f1c40f!important;	
+	}
+
+
+/* Style Three */
+
+#Sun_Flower .style-three .WordPress_Testimonials-content{
+	background:#f1c40f!important;
+	border:none;
+	color:#fff;	
+	}
+#Sun_Flower .style-three .WordPress_Testimonials-content:before{
+  border-color: #f1c40f transparent transparent;
+  bottom: -22px;
+  content: " ";
+  display: block;
+  left: 39px;
+  position: absolute;
+ }
+#Sun_Flower .style-three .WordPress_Testimonials-content:after{
+  border-color: #f1c40f transparent transparent;
+  bottom: -22px;
+  content: " ";
+  display: block;
+  left: 39px;
+  position: absolute;
+ }
+#Sun_Flower .style-three .author-pic img{
+	border:solid 2px #f1c40f!important;	
+	} 
+#Sun_Flower .style-three .position,#Sun_Flower .style-three .website a{ color:#f1c40f!important;}
+
+#Sun_Flower .sld-pagination-three img{
+	border:solid 2px #f1c40f!important;	
+	}
+
+
+/* --------------------- Carrot --------------------- */ 
+
+/* Style One  */
+#Carrot .style-one .WordPress_Testimonials-content{
+	border:solid 2px #e77e23;
+	padding:2%;
+	margin-bottom:-3%;
+	position:relative;
+	/* Shadow */
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;	
+	}
+#Carrot  .style-one .author-pic img{
+	border:solid 2px #e77e23!important;
+	background:#fff;
+	z-index:2;
+	position:relative;
+	}
+#Carrot  .style-one .position,#Carrot .style-one .website a{ color:#e77e23!important;}	
+
+#Carrot .sld-pagination img{
+	border:solid 2px #e77e23!important;
+	}	
+
+/* Style Two */
+#Carrot .style-two .WordPress_Testimonials{
+	background:#e77e23!important;
+	border:none;	
+	}
+#Carrot .style-two .author-pic img{
+	background:#fff!important;
+	border:none!important;
+	}
+#Carrot .style-two .WordPress_Testimonials-content{
+	background:#fff;
+	padding:2%;
+	/* Shaodw */	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;	
+	}
+#Carrot .style-two .author-name,#Carrot .style-two .position,#Carrot .style-two .website a{ color:#fff!important;}
+
+#Carrot .sld-pagination-two img{
+	border:solid 2px #e77e23!important;
+	}
+
+/* Style Three */
+#Carrot .style-three .WordPress_Testimonials-content{
+	background:#e77e23!important;
+	border:none;
+	color:#fff;	
+	}
+#Carrot .style-three .WordPress_Testimonials-content:before{
+  border-color: #e77e23 transparent transparent;
+  bottom: -22px;
+  content: " ";
+  display: block;
+  left: 39px;
+  position: absolute;
+ }
+#Carrot .style-three .WordPress_Testimonials-content:after{
+  border-color: #e77e23 transparent transparent;
+  bottom: -22px;
+  content: " ";
+  display: block;
+  left: 39px;
+  position: absolute;
+ }
+#Carrot .style-three .author-pic img{
+	border:solid 2px #e77e23!important;	
+	} 
+#Carrot .style-three .position,#Carrot .style-three .website a{ color:#e77e23!important;}
+
+#Carrot .sld-pagination-three img{
+	border:solid 2px #e77e23!important;
+	}
+
+
+/* --------------------- Alizarin --------------------- */
+
+/* Style One */
+
+#Alizarin .style-one .WordPress_Testimonials-content{
+	border:solid 2px #e84c3d;
+	padding:2%;
+	margin-bottom:-3%;
+	position:relative;
+	/* Shadow */
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;	
+	}
+#Alizarin .style-one .author-pic img{
+	border:solid 2px #e84c3d!important;
+	background:#fff;
+	z-index:2;
+	position:relative;
+	}
+#Alizarin .style-one .position,#Alizarin .style-one .website a{ color:#e84c3d!important;}	
+
+#Alizarin .sld-pagination img{
+	border:solid 2px #e84c3d!important;
+	}	
+
+
+/* Style Two */
+
+#Alizarin .style-two .WordPress_Testimonials{
+	background:#e84c3d!important;
+	border:none;	
+	}
+#Alizarin .style-two .author-pic img{
+	background:#fff!important;
+	border:none!important;
+	}
+#Alizarin .style-two .WordPress_Testimonials-content{
+	background:#fff;
+	padding:2%;
+	/* Shaodw */	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;	
+	}
+#Alizarin .style-two .author-name,#Alizarin .style-two .position,#Alizarin .style-two .website a{ color:#fff!important;}
+
+#Alizarin .sld-pagination-two img{
+	border:solid 2px #e84c3d!important;
+	}	
+
+
+
+/* Style Four */
+#Alizarin .style-three .WordPress_Testimonials-content{
+	background:#e84c3d!important;
+	border:none;
+	color:#fff;	
+	}
+#Alizarin .style-three .WordPress_Testimonials-content:before{
+  border-color: #e84c3d transparent transparent;
+  bottom: -22px;
+  content: " ";
+  display: block;
+  left: 39px;
+  position: absolute;
+ }
+#Alizarin .style-three .WordPress_Testimonials-content:after{
+  border-color: #e84c3d transparent transparent;
+  bottom: -22px;
+  content: " ";
+  display: block;
+  left: 39px;
+  position: absolute;
+ }
+#Alizarin .style-three .author-pic img{
+	border:solid 2px #e84c3d!important;	
+	} 
+#Alizarin .style-three .position,#Alizarin .style-three .website a{ color:#e84c3d!important;}
+#Alizarin .sld-pagination-three img{
+	border:solid 2px #e84c3d!important;	
+	}
