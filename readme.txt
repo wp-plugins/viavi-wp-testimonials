@@ -17,12 +17,19 @@ Viavi WordPress Testimonials is a beautifully developed plugin for wordpress use
  
 = Features =
 	* Simple & Flat Design.
+	
   * Fully Responsive.
+	
 	* HTML5 & CSS3.
+	
 	* Using Custom Post Type - Testimonial.
+	
 	* There have 2 Layout - Listing & Slider.
+	
 	* 3 Styles and 8 Skins.
+	
 	* Sliding Testimonials using Flexslider.
+	
 	* Easy to Customize.
 
 == Installation ==
